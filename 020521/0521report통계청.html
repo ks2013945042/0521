@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>통계청 안내</title>
+	<style>
+		body {background-color: lightcyan;}
+		h2 { font-size: 20px; background: lightgray;}
+		h3 {color: brown; text-align: center;}
+		hr {border: 2px solid yellow;}
+		span {color: red; border: 1px; font-size: 20px;}
+		li {font-size: 20px;}
+		ul li {background : greenyellow; margin-bottom : 5px;}
+		div { position: absolute; }
+		#f { background: lightgray;}
+		#down:hover {
+			position: relative;
+			left: 5px;
+			top: 5px;
+			background: green;
+		}
+		#fix{
+			text-align: center;
+			position: fixed;
+			z-index: 1;
+			bottom: 10px;
+			right: 10px;
+			width: 150px;
+			padding: 3px;
+			margin: 10px;
+			background: silver;
+			color: red;
+			border-radius: 20px;
+		}
+		#last {
+			z-index: -1;
+			position: absolute;
+			background-color: cornflowerblue;
+			text-align: center;
+			color: white;
+			font-style: Arial;
+			width: 100%;
+			height: 100px;
+			font-size: 20px;
+			top: 260%
+		}
+		#통계청2 { left: 35px; top : 500px; position: sticky;}
+		#통계청2_1 { left : 200px; top : 700px; position: absolute;}
+		#통계청3 { left: 35px; top : 1000px; position: sticky;}
+		#통계청3_1 { left : 260px; top : 1145px; position: absolute;}
+	</style>
+</head>
+<body>
+<h3><span>통계청</span> 사이트</h3>
+<hr>
+
+<div id="fix">LINK<p>
+	<a href="http://kostat.go.kr/portal/korea/index.action" style="text-decoration : none">통계청 사이트 주소</a><p>
+	<a href="http://kosis.kr/index/index.do" style="text-decoration : none">국내/국제 통계포털</a></div>
+<div>
+	<h2>통계청 소개</h2>
+		<p>- 첫째는 저희가 레포트를 만들 때 유용하게 사용되는 <span id="f">통계자료</span>의 정보를 찾고 기간별로 요약해 놓은 사이트입니다.</p>
+	<div>
+		<ul>
+			<li>메인 페이지<img src="reportIMG/통계청1.png" width="800" height="400" alt="메인"></li>
+			<hr>
+			<li>보건/복지 목록<img id="통계청2" src="reportIMG/통계청2.png" width="800" height="400" alt="보건/복지"></li>
+			<hr>
+			<li>교통/정보통신 목록<img id="통계청3" src="reportIMG/통계청3.png" width="800" height="400" alt="교통/정보통신"></li>
+		</ul>
+		<img id="통계청2_1" src="reportIMG/통계청2_1.png" width="150" height="160">
+		<img id="통계청3_1" src="reportIMG/통계청3_1.png" width="200" height="173">
+	</div>
+</div><div id="last">Next Navigate: 러닝맨<a href="0521report러닝맨.html" style="text-decoration: none"><img src="reportIMG/러닝맨 로고.png"></a>
+</body>
+</html>
